@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Tipo restringido para CIU: una letra seguida de 3 dígitos -->
+  <xs:simpleType name="CIUType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z][0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Elemento raíz -->
+  <xs:element name="lagartos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="lagarto" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="especie" type="xs:string"/>
+              <xs:element name="habitat" type="xs:string"/>
+              <xs:element name="clase" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="CIU" type="CIUType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

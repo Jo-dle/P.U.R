@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../Estilo/estilo.xsl"?>
+
+<lagartos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Controladores/P.U.R.xsd">
+
+    <lagarto CIU="A001">
+        <nombre>Basilisco Común</nombre>
+        <especie>Basiliscus Basiliscus</especie>
+        <habitat>Selva Tropical</habitat>
+        <clase>Sauropsida</clase>
+    </lagarto>
+
+    <lagarto CIU="A002">
+        <nombre>Lagarto armadillo</nombre> 
+        <especie>Ouroborus Cataphractus</especie>
+        <habitat>Desierto</habitat>
+        <clase>Sauropsida</clase>
+    </lagarto>
+
+    <lagarto CIU="A003">
+        <nombre>Dragón Barbudo</nombre>
+        <especie>Pogona vitticeps</especie>
+        <habitat>Desiertos, Bosques subtropicales y Sabanas</habitat>
+        <clase>Sauropsida</clase>
+    </lagarto>
+
+    <lagarto CIU="A004">
+        <nombre>Lagarto gigante del Hierro</nombre>
+        <especie>Gallotia bravoana</especie>
+        <habitat>Subtropical Oceánico</habitat>
+        <clase>Sauropsida</clase>
+    </lagarto>
+
+</lagartos>

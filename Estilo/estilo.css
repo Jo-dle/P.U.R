@@ -1,0 +1,13 @@
+lagartos {
+    display:table;
+    border-image: auto;
+    border-spacing: 10px;
+    border: black 4px solid;
+}
+lagarto {
+    display: table-row;
+}
+nombre, especie, habitat, clase {
+border: burlywood 1px outset;
+display: table-cell;
+}
