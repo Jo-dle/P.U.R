@@ -7,7 +7,16 @@
       <xs:pattern value="[A-Za-z][0-9]{3}"/>
     </xs:restriction>
   </xs:simpleType>
-
+<xs:simpleType name="claseType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="Sauropsida"/>
+  </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="habitatType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[Bosque, Bosque Subtropical, Selva, Selva Tropial, Desierto, Sabana, Montaña, Río, Lago, Pantano, Océano Subtropical Oceánico]+"/>
+  </xs:restriction>
+</xs:simpleType>
   <!-- Elemento raíz -->
   <xs:element name="lagartos">
     <xs:complexType>
@@ -17,8 +26,8 @@
             <xs:sequence>
               <xs:element name="nombre" type="xs:string"/>
               <xs:element name="especie" type="xs:string"/>
-              <xs:element name="habitat" type="xs:string"/>
-              <xs:element name="clase" type="xs:string"/>
+              <xs:element name="clase" type="claseType"/>
+              <xs:element name="habitat" type="habitatType"/>
             </xs:sequence>
             <xs:attribute name="CIU" type="CIUType" use="required"/>
           </xs:complexType>

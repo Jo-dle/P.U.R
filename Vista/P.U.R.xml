@@ -7,29 +7,29 @@
     <lagarto CIU="A001">
         <nombre>Basilisco Común</nombre>
         <especie>Basiliscus Basiliscus</especie>
-        <habitat>Selva Tropical</habitat>
         <clase>Sauropsida</clase>
+        <habitat>Selva Tropical</habitat>
     </lagarto>
 
     <lagarto CIU="A002">
         <nombre>Lagarto armadillo</nombre> 
         <especie>Ouroborus Cataphractus</especie>
-        <habitat>Desierto</habitat>
         <clase>Sauropsida</clase>
+        <habitat>Desierto</habitat>
     </lagarto>
 
     <lagarto CIU="A003">
         <nombre>Dragón Barbudo</nombre>
         <especie>Pogona vitticeps</especie>
-        <habitat>Desiertos, Bosques subtropicales y Sabanas</habitat>
         <clase>Sauropsida</clase>
+        <habitat>Desierto, Bosque Subtropical ,Sabana</habitat>
     </lagarto>
 
     <lagarto CIU="A004">
         <nombre>Lagarto gigante del Hierro</nombre>
         <especie>Gallotia bravoana</especie>
-        <habitat>Subtropical Oceánico</habitat>
         <clase>Sauropsida</clase>
+        <habitat>Subtropical Oceánico</habitat>
     </lagarto>
 
 </lagartos>
