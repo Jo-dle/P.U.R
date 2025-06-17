@@ -1,3 +1,6 @@
+<?php
+include_once "../Controladores/controladorIndex.PHP"
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

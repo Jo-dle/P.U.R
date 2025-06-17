@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 -->
 
 <?php
-include_once "../Vista/CRUD.HTML";
 $archivoXML = "P.U.R.xml";
 $mensaje = "";
 
