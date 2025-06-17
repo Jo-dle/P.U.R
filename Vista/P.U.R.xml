@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Estilo/P.U.R.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../Estilo/estiloP.U.R.xsl"?>
 
 <lagartos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="../Controladores/P.U.R.xsd">
+          xsi:noNamespaceSchemaLocation="../Controladores/controladorP.U.R.xsd">
 
     <lagarto CIU="A001">
         <nombre>Basilisco Común</nombre>
